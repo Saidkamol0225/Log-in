@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+main .welcome {
+    display: flex;
+    flex-direction: column;
+}
+
+main .welcome h4 {
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: #4A5568;
+}
+
+main .welcome h3 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+main .welcome .password input {
+    width: 350px;
+    height: 50px;
+    border: #e8e8e8 2px solid;
+    border-radius: 5px;
+    margin-bottom: 11px;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .welcome .email input {
+    width: 350px;
+    height: 50px;
+    border: #e8e8e8 2px solid;
+    border-radius: 5px;
+    margin-bottom: 28px;
+}
+
+main .welcome .remember .one {
+    display: flex;
+    gap: 11px;
+}
+
+.btn button {
+    display: flex;
+    width: 347px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.now button {
+    background-color: #04C35C;
+    color: white;
+    border: #e8e8e8 2px solid;
+    border-radius: 5px;
+    margin-top: 28px;
+}
+
+.google button {
+    background-color: #2D3748;
+    border: #e8e8e8 2px solid;
+    border-radius: 5px;
+    margin-top: 15px;
+    gap: 11px;
+}
+
+main .welcome .password h4 {
+    margin-bottom: 11px;
+}
+
+main .welcome .email h4 {
+    margin-bottom: 11px;
+}
+
+.google button h4 {
+    color: white;
+}
+
+.pas h4 {
+    margin-top: 162px;
+    text-align: center;
+}
+
+.signup {
+    margin: 232px auto 50px;
+}
